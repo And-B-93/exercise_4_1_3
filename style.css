@@ -1,0 +1,185 @@
+@media (min-width: 320px) {
+    @font-face {
+        font-family: "TT Lakes";
+        font-style: normal;
+        font-weight: 300;
+        font-display: swap;
+        src: URL(fonts/TTLakes-Light.woff) format(woff);
+    }
+        
+    @font-face {
+        font-family: "TT Lakes Condensed";
+        font-style: normal;
+        font-weight: bold;
+        font-display: swap;
+        src: URL(fonts/TTLakesCondensed-Bold.woff) format(woff);
+    }
+
+    .common-style {
+        font-family: "TT Lakes";
+        margin: 0px;
+        width: 320px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .interactiv-group {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 16px;
+    }
+
+    .style-group {
+        padding: 23px 24px;
+    }
+
+    .buttons {
+        align-self: center;
+        background-size: cover;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border: none; 
+    }
+
+    .buttons:hover {
+        align-self: center;
+        background-size: cover;
+        background-color: white;
+        width: 40px;
+        height: 40px;
+        border: none;
+        border-radius: 50%;
+        opacity: 0.9;
+        transform: scale(0.9);
+        box-shadow: 0 0 6px 5px rgba(32, 1, 26);
+    }
+
+    .buttons--search {
+        background-image: url(icon/search.svg);
+    }
+
+    .buttons--burger-close {
+        background-image: url(icon/burger.svg);
+    }
+
+    .central-buttons {
+        width: 100vw;
+        display: flex;
+    }
+
+    .logo {
+        display: flex;
+    }
+
+    .logo__buttons {
+        background-size: cover;
+        background-color: white;
+        width: 97px;
+        height: 51px;
+        border: none; 
+    }
+
+    .logo__buttons--logo {
+        background-image: url(icon/Group.svg);
+    }
+
+    .service-title {
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.2px;
+        font-weight: bold;
+        color: #7E7E82;
+        margin-left: 24px;
+        margin-top: 27px;
+    }
+
+    .service-title::before {
+        content: url(icon/highlight.svg);
+        position: absolute;
+        margin-left: -24px;
+        margin-top: -4px;
+    }
+
+    .outpoint .item-list a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #1B1C21;
+    }
+
+    .list-service .item-list {
+        margin: 32px 24px;
+    }
+
+    .field-style {
+        margin-left: 24px;
+        margin-top: 236px;
+    }
+
+    .field-info {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .field-style a {
+        margin-top: 16px;
+        text-decoration: none;
+    }
+
+    .call-chat-profile {
+        display: flex;
+        justify-content: flex-start;
+        column-gap: 16px;
+    }
+
+    .buttons--call {
+        background-image: url(icon/call.svg);
+    }
+
+    .buttons--chat {
+        background-image: url(icon/chat.svg);
+    }
+
+    .buttons--profile {
+        background-image: url(icon/profile.svg);
+    }
+
+    .field-style .mail {
+        color: #1B1C21;
+        font-weight: bold;
+    }
+
+    .field-style .phone {
+        color: #1B1C21;
+        font-family: "TT Lakes Condensed";
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: -0.6px;
+    }
+
+    .language {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .language .item-list {
+        margin: 40px 7px 0 0;
+    }
+
+    .language button {
+        background-color: #FFFFFF;
+        border: none;
+    }
+
+    .language .current {
+        color: #7E7E82;
+    }
+
+    .outpoint {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+}
